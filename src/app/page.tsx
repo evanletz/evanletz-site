@@ -23,7 +23,11 @@ export default function Home() {
               height={25}
             />
           </Link>
-          <Link id="linkedin" href={"https://www.linkedin.com/in/evan-letz/"}>
+          <Link
+            id="linkedin"
+            href={"https://www.linkedin.com/in/evan-letz/"}
+            target="_blank"
+          >
             <img
               src="/images/linkedin.svg"
               alt="LinkedIn Link"
@@ -31,7 +35,11 @@ export default function Home() {
               height={25}
             />
           </Link>
-          <Link id="github" href={"https://github.com/evanletz/evanletz-site"}>
+          <Link
+            id="github"
+            href={"https://github.com/evanletz/evanletz-site"}
+            target="_blank"
+          >
             <img
               src="/images/github.svg"
               alt="Github Link"
@@ -39,10 +47,10 @@ export default function Home() {
               height={25}
             />
           </Link>
-          <Link id="x" href={"https://x.com/evanletz"}>
+          <Link id="x" href={"https://x.com/evanletz"} target="_blank">
             <img src="/images/x.svg" alt="X Link" width={25} height={25} />
           </Link>
-          <Link id="resume" href={"#"}>
+          <Link id="resume" href={"#"} target="_blank">
             <img
               src="/images/resume.svg"
               alt="Resume Link"
