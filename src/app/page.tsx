@@ -6,7 +6,7 @@ export default function Home() {
       <div className="border flex">
         <Image
           src="/images/profile-photo.png"
-          alt=""
+          alt="Profile Photo"
           height={300}
           width={300}
           className="rounded-full"
